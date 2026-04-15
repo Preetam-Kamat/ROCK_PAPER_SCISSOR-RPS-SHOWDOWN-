@@ -1,0 +1,10 @@
+| Test Case ID | What we test       | Input          | Expected Output                | Actual Output                  | Status |
+| ------------ | ------------------ | -------------- | ------------------------------ | ------------------------------ | ------ |
+| TC01         | Game runs properly | Name + s, p, z | Game runs 3 rounds             | Game runs 3 rounds             | Pass   |
+| TC02         | Draw case          | s vs s         | Show Draw, no score change     | Draw shown, score same         | Pass   |
+| TC03         | User wins          | s vs z         | User wins, score increases     | User wins, score increased     | Pass   |
+| TC04         | Computer wins      | p vs z         | Computer wins, score increases | Computer wins, score increased | Pass   |
+| TC05         | Wrong input        | x              | Show error and ask again       | Error shown, asked again       | Pass   |
+| TC06         | Score check        | 3 rounds       | Score should be correct        | Score is correct               | Pass   |
+| TC07         | Name display       | Preetam        | Name should show properly      | Name shown properly            | Pass   |
+| TC08         | Final result       | User wins more | Show user is winner            | User shown as winner           | Pass   |
