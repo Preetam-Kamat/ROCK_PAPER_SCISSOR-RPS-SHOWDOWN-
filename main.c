@@ -71,11 +71,11 @@ int main()
             user_score++;
         }
         else {
-            printf("Computer wins this round!\n");
+            printf("Computer wons this round!\n");
             comp_score++;
         }
 
-        printf("%s: %c | Computer: %c\n", name, you, computer);
+        printf("%s: %c  | Computer: %c\n", name, you, computer);
         printf("Score -> %s: %d | Computer: %d\n", name, user_score, comp_score);
     }
 
